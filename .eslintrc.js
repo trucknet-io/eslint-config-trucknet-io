@@ -1,5 +1,9 @@
 module.exports = {
+  parser: "babel-eslint",
   extends: "standard",
+  plugins: [
+    "flowtype"
+  ],
   rules: {
     "semi": [2, "always"],
     "no-extra-semi": 2,
@@ -20,5 +24,9 @@ module.exports = {
     }],
     "max-len": [2, 120, 2],
     "jsx-quotes": [2, "prefer-double"],
+    "flowtype/require-valid-file-annotation": [
+      2,
+      "always"
+    ],
   }
 }
