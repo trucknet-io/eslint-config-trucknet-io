@@ -13,7 +13,7 @@ official ESLint website.
 To use the JavaScript Standard Style shareable config, first run this:
 
 ```bash
-npm install --save-dev git+https://trucknet-io/eslint-config-trucknet-io
+npm install -D git+https://git@github.com/trucknet-io/eslint-config-trucknet-io
 ```
 
 Then, add this to your .eslintrc file:
