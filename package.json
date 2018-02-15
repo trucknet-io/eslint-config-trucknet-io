@@ -2,6 +2,11 @@
   "name": "eslint-config-trucknet-io",
   "version": "1.0.0",
   "description": "Eslint Preset based on JavaScript Standard Style with comma-dangles, semi and more",
+  "homepage": "https://github.com/trucknet-io/eslint-config-trucknet-io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trucknet-io/eslint-config-trucknet-io"
+  },
   "main": "index.js",
   "scripts": {
     "test": "eslint ./test.js ./test.spec.js"
@@ -11,6 +16,7 @@
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-flowtype": "^2.44.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.12.1",

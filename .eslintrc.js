@@ -1,6 +1,9 @@
 module.exports = {
   parser: "babel-eslint",
-  extends: "standard",
+  extends: [
+    "standard",
+    "standard-react"
+  ],
   plugins: [
     "flowtype"
   ],
@@ -24,9 +27,12 @@ module.exports = {
     }],
     "max-len": [2, 120, 2],
     "jsx-quotes": [2, "prefer-double"],
+    // flow
     "flowtype/require-valid-file-annotation": [
       2,
       "always"
     ],
+    // react
+    "react/prop-types": 0
   }
 }

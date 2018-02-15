@@ -1,7 +1,8 @@
 // @flow
+import React from 'react';
+import { testImport, helloworld } from 'hello';
 
-import { test } from 'eslint';
-import { helloworld } from 'eslint';
+console.log(helloworld, testImport);
 
 const a = 123;
 console.log(a);
@@ -44,8 +45,9 @@ console.log(arr);
 const Component = ({ a, b }) => (
   <h1 a="arr">
     <span
-      style={{ border: 1 }}
-    >{a + b}</span>
+      style={{ border: 1 }}>
+      {a + b}
+    </span>
   </h1>
 );
 
