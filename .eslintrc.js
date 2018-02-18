@@ -1,4 +1,9 @@
 module.exports = {
+  "globals": {
+    "Event": false,
+    "ReactElement": false,
+    "ReactClass": false
+  },
   parser: "babel-eslint",
   extends: [
     "standard",
@@ -33,6 +38,9 @@ module.exports = {
       "always"
     ],
     // react
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    "react/no-unused-prop-types": 0,
+    "react/jsx-indent-props": [0, 2],
+    "react/jsx-indent": [0, 2]
   }
 }
