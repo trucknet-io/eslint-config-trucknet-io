@@ -4,15 +4,15 @@ module.exports = {
     "ReactElement": false,
     "ReactClass": false
   },
-  parser: "babel-eslint",
-  extends: [
+  "parser": "babel-eslint",
+  "extends": [
     "standard",
     "standard-react"
   ],
-  plugins: [
+  "plugins": [
     "flowtype"
   ],
-  rules: {
+  "rules": {
     "semi": [2, "always"],
     "no-extra-semi": 2,
     "comma-dangle": ["error", "always-multiline"],
