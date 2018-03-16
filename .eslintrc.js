@@ -13,6 +13,7 @@ module.exports = {
     "flowtype"
   ],
   "rules": {
+    "no-console": "error",
     "semi": [2, "always"],
     "no-extra-semi": 2,
     "comma-dangle": ["error", "always-multiline"],
