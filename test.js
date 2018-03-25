@@ -4,6 +4,10 @@ import { testImport, helloworld } from 'hello';
 
 console.log(helloworld, testImport);
 
+console.error('error log');
+
+
+
 const a = 123;
 console.log(a);
 
