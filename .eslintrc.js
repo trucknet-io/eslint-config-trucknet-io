@@ -13,6 +13,7 @@ module.exports = {
     "flowtype"
   ],
   "rules": {
+    "lines-between-class-members": ["error", "always"],
     "no-console": ["error", { allow: ["warn", "error"] }],
     "semi": [2, "always"],
     "no-extra-semi": 2,
