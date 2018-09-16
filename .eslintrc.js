@@ -4,7 +4,6 @@ module.exports = {
     "ReactElement": false,
     "ReactClass": false
   },
-  "parser": "babel-eslint",
   "extends": [
     "standard",
     "standard-react"
@@ -24,6 +23,9 @@ module.exports = {
     "no-this-before-super": "error",
     "no-undef": "error",
     "constructor-super": "warn",
+    "no-restricted-modules": ["error", {
+      "patterns": ["./*", "../*"]
+    }],
     "prefer-const": "error",
     "no-unused-vars": ["error", {
       "vars": "all",
