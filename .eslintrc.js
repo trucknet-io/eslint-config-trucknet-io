@@ -24,7 +24,7 @@ module.exports = {
     "no-undef": "error",
     "constructor-super": "warn",
     "no-restricted-modules": ["error", {
-      "patterns": ["./*", "../*"]
+      "patterns": ["../*"]
     }],
     "prefer-const": "error",
     "no-unused-vars": ["error", {
