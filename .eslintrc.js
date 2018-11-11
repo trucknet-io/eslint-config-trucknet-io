@@ -12,6 +12,7 @@ module.exports = {
     "flowtype"
   ],
   "rules": {
+    "no-nested-ternary": ["error"],
     "lines-between-class-members": ["error", "always"],
     "no-console": ["error", { allow: ["warn", "error"] }],
     "semi": [2, "always"],
