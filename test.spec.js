@@ -1,3 +1,5 @@
+// @flow
+
 /* eslint-env jest */
 
 // for jest test files

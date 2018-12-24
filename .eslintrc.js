@@ -5,11 +5,14 @@ module.exports = {
     "ReactClass": false
   },
   "extends": [
+    "plugin:flowtype/recommended",
     "standard",
-    "standard-react"
+    "standard-react",
+    "plugin:prettier/recommended"
   ],
   "plugins": [
-    "flowtype"
+    "flowtype",
+    "prettier"
   ],
   "rules": {
     "no-nested-ternary": ["error"],

@@ -2,6 +2,10 @@
 
 Eslint Preset based on JavaScript Standard Style with comma-dangles, semi and more
 
+## Fast install
+
+- `npm remove eslint babel-eslint eslint*`
+- `npm i -D eslint-config-trucknet-io`
 
 ## Usage
 
