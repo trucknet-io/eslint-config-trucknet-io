@@ -15,21 +15,21 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.11.0",
-    "eslint-config-prettier": "^3.3.0",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^3.6.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-config-standard-react": "^7.0.2",
-    "eslint-plugin-flowtype": "^3.2.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.1.2",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-flowtype": "^3.2.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0"
   },
   "devDependencies": {
-    "prettier-config-trucknet-io": "^1.0.0"
+    "prettier-config-trucknet-io": "^1.1.1"
   },
   "peerDependencies": {
     "eslint": ">= 5"
